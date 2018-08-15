@@ -1,6 +1,6 @@
 # Easy Form Builder
 
-View a Working Verions: (http://kapenike.com/local_code/form-builder/example.html)
+View a Working Verion: (http://kapenike.com/local_code/form-builder/example.html)
 
 This application is meant to be a total solution for form building and data capture. Once a form has been created, it can be called from a PHP script that converts the builder into a data capture form. Data captured can be stored in the easy form builder save object, or passed to a custom function to be dealt with how the developer pleases.
 
