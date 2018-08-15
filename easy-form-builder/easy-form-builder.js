@@ -459,7 +459,7 @@ function efb_createObjectFromElement(elem) {
 	};
 	return obj;
 }
-//Create object from element and its children than can be passed back into "efb_createLayout"
+//Create object from element and its children that can be passed back into "efb_createLayout"
 function efb_structureSave(elem) {
 	var c = elem.children;
 	var obj = efb_createObjectFromElement(elem);
