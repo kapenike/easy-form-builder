@@ -49,6 +49,7 @@ div.easy_form_builder div.efb_col {
 	padding:10px;
 	background-color:#c46d8d;
 	border-right:1px solid #ea8382;
+	border-top:1px solid #ea8382;
 	box-sizing:border-box;
 }
 div.easy_form_builder div.efb_menu .row {
