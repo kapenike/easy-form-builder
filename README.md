@@ -6,9 +6,10 @@ This is a work in progress. Currently, I have only completed the form builder. I
 ### Remaining Features for V.1 Release
 - [ ] Append "required" checkbox to Create Input menu and store inside new input container as hidden field
 - [ ] Allow data restrictions to be made on text inputs (Ex. valid email, character length). Values stored as hidden fields
-- [ ] Create a Save/Load system using AJAX. This system must save the response from `efb_saveMenu`, then create two more versions. Onc being the front-end form (so remove all unnecessary data like hidden fields and easy form builder class names). The second being an object that represents the inputs created with their hidden values as properties.
+- [ ] Create a Save/Load system using AJAX. This system must save the response from `efb_saveMenu`, then create two more versions. One being the front-end form (so remove all unnecessary data like hidden fields and easy form builder class names). The second being an object that represents the inputs created with their hidden values as properties.
 - [ ] Create a front-end form viewer that translates the two additional save datas into a working data capture form. This needs to account for the multiple form pages and allow for data collected on previous pages to be used on other pages (Ex. `{{page_1.INPUT_NAME}}` ).
 - [ ] Create new row type on form builder titled "Duplicate Section". Any inputs created in this section will be translated into array inputs on the front-end form capture (`INPUT_NAME[]`) and will include a feature to duplcate the entire section or remove one.
+- [ ] Offer a generic storage option for form  data inside the easy form builder instance save file. These results should be viewable from the form builder itself.
 
 ## Getting Started
 Include `easy-form-builder.js`, `easy-form-builder.css` and any version of Bootstrap in your HTML file. I have included v3.3.6 becuase it has nicer generic colors than the current version.
