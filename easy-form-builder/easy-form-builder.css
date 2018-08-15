@@ -16,6 +16,7 @@ div.easy_form_builder div.efb_tool_bar div.row > div {
 }
 div.easy_form_builder div.efb_slate {
 	width:100%;
+	color:#000000;
 	position:relative;
 	min-height:200px;
 	background-color:#eeeeee;
@@ -52,6 +53,11 @@ div.easy_form_builder div.efb_col {
 }
 div.easy_form_builder div.efb_menu .row {
 	margin:0;
+}
+div.easy_form_builder div.efb_textbox,
+div.easy_form_builder div.efb_input {
+	padding:10px;
+	background-color:#77598a;
 }
 div.easy_form_builder label {
 	width:100%;
